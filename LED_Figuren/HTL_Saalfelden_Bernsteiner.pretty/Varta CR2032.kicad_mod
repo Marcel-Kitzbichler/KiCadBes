@@ -1,0 +1,113 @@
+(footprint "Varta CR2032"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ec79ccd6-8002-4e1c-a564-33741086035e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Varta CR2032"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "87876563-e41a-4a31-86a0-2de100dfe4ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Varta CR2032"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c6741ca-4004-402f-adfa-89c836c05645")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a9d56cbc-44f0-4f66-8eac-a23265941934")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e047e03c-dfac-4bd6-b14e-d51712982ebe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" thru_hole roundrect
+		(at -5 4.2)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.3)
+		(chamfer top_left top_right bottom_left bottom_right)
+		(uuid "9b3ce8bf-a30d-43be-90e7-88760dbeee41")
+	)
+	(pad "1" thru_hole roundrect
+		(at 5 4.2)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.3)
+		(chamfer top_left top_right bottom_left bottom_right)
+		(uuid "441f2812-5495-49e6-8432-66e439fb304a")
+	)
+	(pad "2" thru_hole roundrect
+		(at 0 0)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.3)
+		(chamfer top_left top_right bottom_left bottom_right)
+		(uuid "0f177140-42b3-46f2-8827-a977751fe84a")
+	)
+	(group ""
+		(uuid "cb079f10-36f4-49b6-8475-56456346ae4c")
+		(members "0f177140-42b3-46f2-8827-a977751fe84a" "2c6741ca-4004-402f-adfa-89c836c05645"
+			"441f2812-5495-49e6-8432-66e439fb304a" "87876563-e41a-4a31-86a0-2de100dfe4ba"
+			"9b3ce8bf-a30d-43be-90e7-88760dbeee41" "a9d56cbc-44f0-4f66-8eac-a23265941934"
+			"e047e03c-dfac-4bd6-b14e-d51712982ebe" "ec79ccd6-8002-4e1c-a564-33741086035e"
+		)
+	)
+)

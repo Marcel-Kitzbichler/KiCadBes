@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "HTL_Saalfelden_Bernsteiner")(type "KiCad")(uri "${KIPRJMOD}/HTL_Saalfelden_Bernsteiner.pretty")(options "")(descr ""))
+)
